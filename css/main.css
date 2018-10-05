@@ -13,23 +13,6 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 
-/*column and row define the preview image alignment, which is 3 pictures side by side*/
-* {
-    box-sizing: border-box;
-}
-
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-}
-
-
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
 
 a {
     text-decoration: none;
