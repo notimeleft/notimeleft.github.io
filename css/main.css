@@ -12,6 +12,21 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
+
+/*column and row define the preview image alignment, which is 3 pictures side by side*/
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 a {
     text-decoration: none;
     color: #999;
