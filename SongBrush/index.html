@@ -2,8 +2,30 @@
 layout: default
 title: SongBrush
 ---
-  <title>SongBrush</title>
+  <head>
+    <title>SongBrush</title>
+    <style>
+    * {
+        box-sizing: border-box;
+    }
+
+    .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+    }
+
+    /* Clearfix (clear floats) */
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    </style>
+  </head>  
+
   
+  <body>
   <div class="SongBrush">
     <h1>Paint using the awesome power of your voice</h1>
     
@@ -77,4 +99,5 @@ title: SongBrush
     <br/>
     <br/>
   </div>
-
+  
+</body>
